@@ -6,7 +6,7 @@
   "homepage": "https://kamathadithya.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy":"gh-pages -d dist/index.html"
+    "deploy":"gh-pages -d dist"
   },
   "author": "Adithya Kamath",
   "license": "ISC",
