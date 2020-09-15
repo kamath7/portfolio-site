@@ -6,12 +6,13 @@
   "homepage": "https://kamathadithya.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Adithya Kamath",
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^2.2.0",
-    "node-sass": "^4.14.0"
+    "node-sass": "^4.14.0",
+    "yargs-parser": "^20.0.0"
   }
 }
